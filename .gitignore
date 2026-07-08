@@ -1,0 +1,19 @@
+# Data — never commit licensed market data
+data/
+*.csv
+*.xlsx
+*.parquet
+*.h5
+*.zip
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Jupyter
+.ipynb_checkpoints/
+# Secrets
+.env
+wrds_credentials*
+# OS
+.DS_Store
